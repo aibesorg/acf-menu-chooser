@@ -58,6 +58,8 @@ class acf_field_menu_chooser extends acf_field {
 
 		if ( ! empty( $menus ) ) {
 			echo '<select name="' . $field['name'] . '" class="acf-menu-chooser">';
+			// print an empty option
+			echo '<option>' . __('Select menu', 'acf-menu-chooser') . '</option>';
 			foreach ($menus as $choice) {
 				$field['choices'][$choice->menu_id] = $choice->term_id;
 				$field['choices'][$choice->name] = $choice->name;
@@ -71,5 +73,3 @@ class acf_field_menu_chooser extends acf_field {
 
 // create field
 new acf_field_menu_chooser();
-
-?>
