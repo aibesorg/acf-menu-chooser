@@ -1,0 +1,27 @@
+{
+  "name": "aibesorg/acf-menu-chooser",
+	"type": "wordpress-plugin",
+	"license": "MIT",
+	"description": "This plugin create a field type with a select field that load all menu wordpress and return id of selected menu",
+	"homepage": "https://github.com/aibesorg/acf-menu-chooser",
+	"support": {
+		"issues": "https://github.com/aibesorg/acf-menu-chooser/issues",
+		"source": "https://github.com/aibesorg/acf-menu-chooser.git"
+	},
+	"authors": [
+		{
+			"name": "Reyhoun",
+			"homepage": "https://github.com/reyhoun"
+		}
+	],
+	"keywords": [
+		"acf",
+		"advanced custom fields",
+		"menu chooser"
+	],
+	"prefer-stable": true,
+	"require": {
+		"composer/installers": "^1.0",
+		"php": ">=5.4.0"
+	}
+}
